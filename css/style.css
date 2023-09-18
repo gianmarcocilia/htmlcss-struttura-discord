@@ -29,7 +29,7 @@ ul {
 
 header {
     background-color: lightblue;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 
 .flex-header {
@@ -39,7 +39,7 @@ header {
 
 /* Logo */
 
-.logo {
+.logo1 {
     padding: 0.5rem;
     width: 20%;
     background-color: orange;
@@ -83,7 +83,7 @@ header {
 
 .content-1 {
     width: 60%;
-    min-height: 150px;
+    min-height: 300px;
     background-color: pink;
     margin: 0 auto;
     border: 1px dashed black;
@@ -100,14 +100,14 @@ header {
 
 .blu-content {
     width: 60%;
-    min-height: 150px;
+    min-height: 300px;
     background-color: rgb(30 144 255);;
     border: 1px dashed black;
 }
 
 .pink-content {
     width: 40%;
-    min-height: 150px;
+    min-height: 300px;
     background-color: pink;
     border: 1px dashed black;
 }
@@ -129,6 +129,52 @@ header {
     margin: 0 auto;
     width: 75%;
     background-color: green;
-    min-height: 400px;
+    min-height: 500px;
+    border: 1px dashed black;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(35 39 42);
+}
+
+.flex-footer {
+    display: flex;
+    padding: 1rem 0 2rem;
+}
+
+.left-footer {
+    min-height: 200px;
+    background-color: rgb(240 128 128);
+    width: 28%;
+    border: 1px dashed black;
+}
+
+.right-footer {
+    min-height: 350px;
+    background-color: rgb(32 178 170);
+    width: 18%;
+    border: 1px dashed white;
+}
+
+/* Section with logo and buttons */
+
+.section-buttons {
+    margin: 1.5rem auto 0;
+    width: 75%;
+    background-color: aquamarine;
+}
+
+.flex-footer2 {
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+
+.logo2,
+.bottone {
+    padding: .5rem;
+    background-color: pink;
     border: 1px dashed black;
 }
