@@ -24,6 +24,9 @@ ul {
     list-style: none;
 }
 
+.flex {
+    display: flex;
+}
 
 /* HEADER */
 
@@ -32,44 +35,36 @@ header {
     padding-bottom: .5rem;
 }
 
-.flex-header {
-    display: flex;
+.navbar {
     padding: 1rem 0;
+}
+
+.logo1,
+.link,
+.login {
+    padding: 0.5rem;
+    background-color: orange;
+    border: 1px dashed black;
 }
 
 /* Logo */
 
 .logo1 {
-    padding: 0.5rem;
     width: 20%;
-    background-color: orange;
-    border: 1px dashed black;
 }
 
 /* Navbar */
 
-.navbar {
-    padding: 0.5rem;
+.link {
     width: 60%;
-    background-color: orange;
-    border: 1px dashed black;
-}
-
-
-.flex-nav {
-    display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-
 /* Login */
 
 .login {
-    padding: 0.5rem;
     width: 20%;
-    background-color: orange;
-    border: 1px dashed black;
     text-align: right;
 }
 
