@@ -71,7 +71,6 @@ header {
 /* First section */
 
 .section-1 {
-    
     background-color: blue;
     padding: 2rem 0;
 }
@@ -88,8 +87,7 @@ header {
 
 /* Content Section */
 
-.flex-content {
-    display: flex;
+.content {
     padding: 2rem 0;
 }
 
@@ -134,8 +132,7 @@ footer {
     background-color: rgb(35 39 42);
 }
 
-.flex-footer {
-    display: flex;
+.footer {
     padding: 1rem 0 2rem;
 }
 
@@ -153,23 +150,19 @@ footer {
     border: 1px dashed white;
 }
 
-/* Section with logo and buttons */
+/* Footer2 with logo and buttons */
 
-.section-buttons {
+.footer2 {
     margin: 1.5rem auto 0;
     width: 75%;
     background-color: aquamarine;
-}
-
-.flex-footer2 {
-    display: flex;
     padding: 1.5rem 0;
     justify-content: space-between;
 }
 
 .logo2,
 .bottone {
-    padding: .5rem;
+    padding: .5rem 1rem;
     background-color: pink;
     border: 1px dashed black;
 }
